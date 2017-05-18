@@ -1,0 +1,10 @@
+header h2 {
+    margin-bottom: 0;
+}
+header footer {
+    margin-bottom: 10px;
+    color: #000;
+}
+.lead {
+    margin-bottom: 10px;
+}

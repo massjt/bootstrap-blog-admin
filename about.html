@@ -1,0 +1,78 @@
+ <!DOCTYPE html>
+<html xmlns:wb="http://open.weibo.com/wb">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>关于我</title>
+    <script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
+    <link href="./vendor/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/posts.css">
+  </head>
+  <body>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Mark Blog</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="posts.html">最新文章</a></li>
+        <li class="active"><a href="about.html">关于我</a></li>
+        <li><a href="archive.html">文章归档 </a></li>
+        <li><a href="contact.html">联系我</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Log in</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-3 profile">
+      <!-- aside表示article以外的内容，与article相关 -->
+      <aside>
+        <img src="imgs/dog.jpg" class="img-circle" alt="">
+        <h4>marks sun</h4>
+        <p>八维教育</p>
+        <wb:follow-button uid="5688889468" type="gray_3" width="100%" height="24" ></wb:follow-button>
+
+        <hr>
+        <p>分享该页面</p>
+        <ul class="list-inline">
+          <li><img src="imgs/social_icons/twitter.png" alt=""></li>
+          <li><img src="imgs/social_icons/linkedin.png" alt=""></li>
+          <li><img src="imgs/social_icons/facebook.png" alt=""></li>
+          <li><img src="imgs/social_icons/googleplus.png" alt=""></li>
+          <li><img src="imgs/social_icons/email.png" alt=""></li>
+        </ul>
+      </aside>
+    </div>
+    <div class="col-md-8 col-md-offset-1">
+      <h1>关于我</h1>
+      <div class="lead">
+        Lorem Ipsum，也称乱数假文或者哑元文本， 是印刷及排版领域所常用的虚拟文字。由于曾经一台匿名的打印机刻意打乱了一盒印刷字体从而造出一本字体样品书，Lorem Ipsum从西元15世纪起就被作为此领域的标准文本使用
+      </div>
+      <hr>
+      <p>
+        Lorem Ipsum，也称乱数假文或者哑元文本， 是印刷及排版领域所常用的虚拟文字。由于曾经一台匿名的打印机刻意打乱了一盒印刷字体从而造出一本字体样品书，Lorem Ipsum从西元15世纪起就被作为此领域的标准文本使用
+      </p>
+    </div>
+  </div>
+</div>
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <script src="./vendor/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+  </body>
+</html>

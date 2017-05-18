@@ -1,0 +1,109 @@
+ <!DOCTYPE html>
+<html xmlns:wb="http://open.weibo.com/wb">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Article</title>
+    <script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
+    <link href="./vendor/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/article.css">
+  </head>
+  <body>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Mark Blog</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="posts.html">最新文章</a></li>
+        <li><a href="about.html">关于我</a></li>
+        <li><a href="archive.htlm">文章归档 </a></li>
+        <li><a href="contact.html">联系我</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Log in</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-3 profile">
+      <!-- aside表示article以外的内容，与article相关 -->
+      <aside>
+        <img src="imgs/dog.jpg" class="img-circle" alt="">
+        <h4>marks sun</h4>
+        <p>八维教育</p>
+        <wb:follow-button uid="5688889468" type="gray_3" width="100%" height="24" ></wb:follow-button>
+
+        <hr>
+        <p>分享该页面</p>
+        <ul class="list-inline">
+          <li><img src="imgs/social_icons/twitter.png" alt=""></li>
+          <li><img src="imgs/social_icons/linkedin.png" alt=""></li>
+          <li><img src="imgs/social_icons/facebook.png" alt=""></li>
+          <li><img src="imgs/social_icons/googleplus.png" alt=""></li>
+          <li><img src="imgs/social_icons/email.png" alt=""></li>
+        </ul>
+      </aside>
+    </div>
+    <div class="col-md-8 col-md-offset-1">
+      <article>
+        <h1>我能从哪里获取？</h1>
+        <div class="lead">
+          如今互联网提供各种各样版本的Lorem Ipsum段落，但是大多数都多多少少出于刻意幽默或者其他随机插入的荒谬单词而被篡改过了。如果你想取用一段Lorem Ipsum，请确保段落中不含有令人尴尬的不恰当内容。所有网上的Lorem Ipsum生成器都倾向于在必要时重复预先准备的部分，然而这个生成器则是互联网上首个确切的生成器。它使用由超过200个拉丁单词所构造的词典，结合了几个模范句子结构，来生成看起来恰当的Lorem Ipsum。
+        </div>
+        <div id="comments">
+          <h2>评论</h2>
+          <div class="row">
+            <div class="col-md-11">
+              <p>
+              无可否认，当读者在浏览一个页面的排版时，难免会被可阅读的内容所分散注意力。
+              </p>
+              <footer>
+                <small><b>marks</b> Commented on : 2017 8</small>
+              </footer>
+              <hr>
+            </div>
+            <div class="col-md-1 comment-num">01</div>
+          </div>
+          <form action="">
+            <h3>分享你的评论</h3>
+            <p>
+              <label class="sr-only">content</label>
+              <textarea rows="4" class="form-control" placeholder="输入评论内容" id="message" required></textarea>
+            </p>
+            <p>
+              <label class="sr-only">Name</label>
+              <input class="form-control" placeholder="Your name" type="email">
+            </p>
+            <p>
+              <label class="sr-only">email</label>
+              <input class="form-control" placeholder="Email" type="email">
+            </p>
+            <p>
+              <button class="btn btn-primary">提交</button>
+            </p>
+          </form>
+        </div>
+      </article>
+    </div>
+  </div>
+</div>
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <script src="./vendor/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+.profile aside p {
+  font-size: 12px;
+}
+.box {
+  border: 1px dotted red;
+}
+@media (max-width: 990px) {
+    .profile-image {
+        float: left;
+        margin-right: 15px;
+    }
+    .profile-content {
+        float: left;
+    }
+    .social-icons {
+        /* margin-left: 115px; */
+        float: right;
+    }
+}
+
+@media (max-width: 645px) {
+    .profile-image {
+        margin-right: 25px;
+    }
+    .social-icons {
+        float: left;
+    }
+}
